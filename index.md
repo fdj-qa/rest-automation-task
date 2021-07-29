@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+## Software Development Engineer in Test - Take Home Task
 
-You can use the [editor on GitHub](https://github.com/fdj-qa/rest-automation.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+As part of the interview process you have been requested to complete a take home task. You will find everything you need below. If you have any questions please contact FDJ QA
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Overview
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+At FDJ, we have 3 main factory teams,  works in differebt techs stacks & goals.
 
-```markdown
-Syntax highlighted code block
+1. Feed Aggregator
+2. Backend Monollith 
+3. Front End
 
-# Header 1
-## Header 2
-### Header 3
+The purpose of this task is to assess your approach to API test automation with REST princilples.
 
-- Bulleted
-- List
+The Task
+You are to create API test that will validate that we're able to successfully add/create pets to store, update, verify and remove a pet record. Your automation must follow the below steps:
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+https://petstore3.swagger.io/
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+1. Create and return a new Pet with:
+- Id
+- Category_name
+- Pet_name
+- Status
+- tagName
+- photoUrl
+2. Verify The Pet was created with correct data.
+3. Update this Pet_name, Verify update and return record.
+4. Update this Status, Verify update and return record.
+4. Delete the Pet and demonstrate pet now deleted.
 
-### Jekyll Themes
+This is the specific user journey we want to see automated.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fdj-qa/rest-automation.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Assessment criteria
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+> Demonstrated Groovy with Spock knowledge
+ 
+> The test code is concise and easy to understand
+
+> The test effectively validates the intended functionality
+
+> The framework is well structured
+
+> The framework can be extended in an intuitive way
+
+> We should be able run the test please added to github with README
+
+
+Don't hesitate to reach out if you have any questions.
+
+
+All the Best 
+Team FDJ
+
