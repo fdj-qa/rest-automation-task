@@ -1,7 +1,6 @@
 ## Software Development Engineer in Test - Take Home Task
 
-As part of the interview process you have been requested to complete a take home task. You will find everything you need below. If you have any questions please contact FDJ QA
-
+As part of the interview process you have been requested to complete a take home task. You will find everything you need below.
 
 ### Overview
 
@@ -44,9 +43,6 @@ This is the specific user journey we want to see automated.
 > The framework can be extended in an intuitive way
 
 > We should be able run the test please added to github with README
-
-
-Don't hesitate to reach out if you have any questions.
 
 
 All the Best 
