@@ -5,16 +5,12 @@ As part of the interview process you have been requested to complete a take home
 
 ### Overview
 
-At FDJ, we have 3 main factory teams,  works in differebt techs stacks & goals.
-
-1. Feed Aggregator
-2. Backend Monollith 
-3. Front End
-
 The purpose of this task is to assess your approach to API test automation with REST princilples.
 
 The Task
-You are to create API test that will validate that we're able to successfully add/create pets to store, update, verify and remove a pet record. Your automation must follow the below steps:
+You are to create API test that will validate that we're able to successfully add/create pets to store, update, verify and remove a pet record.
+
+> Your automation must follow the below steps:
 
 ```
 https://petstore3.swagger.io/
@@ -37,7 +33,7 @@ This is the specific user journey we want to see automated.
 
 ### Assessment criteria
 
-> Demonstrated Groovy with Spock knowledge
+> Demonstrated java knowledge.
  
 > The test code is concise and easy to understand
 
